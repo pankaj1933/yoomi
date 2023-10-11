@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YOOMI</title>
+
+<link rel="shortcut icon" href="./assets/image/svg/plus_lg.svg" type="image/x-icon">
+    <!-- Add Slick Slider CSS and JavaScript files -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="overflow-hidden">
+    <button onclick="topFunction()"  id="scrollBtn" title="Go to top"><img
+        src="./assets/image/svg/toparrow.svg" alt=""></button>
+    <div class="overflow-hidden">
+      <div id="preloader"
+        class="min-vh-100 d-flex align-items-center bg-white justify-content-center  position-fixed w-100 top-0 start-0 z-3 preloader-transition">
+        <div><img src="assets/gif/giphy.gif" alt="#"></div>
+      </div>
+    <nav>
+        <section class="bg_light_blue">
+            <div class="container_css">
+
+                <div class="py-3 d-flex justify-content-between align-items-center">
+                    <img src="./assets/image/svg/navlogo.svg" alt="">
+                    <ul class="mb-0 ps-0 d-md-flex align-items-center gap-5 text-white d-none d-md-block">
+                        <li><a class="text-black ff_inter fs_2xl fw-medium" href="">
+                                About Us
+                            </a></li>
+                        <li><a class="text-black ff_inter fs_2xl fw-medium" href="">News</a></li>
+                        <li class="text-black ff_inter fs_2xl fw-medium">Contact Us</li>
+                        <li>
+                            <a class=" ff_inter fs_xl text-white fw-semibold primary_btn padding13_16" href="">Get
+                                Started</a>
+                        </li>
+
+                    </ul>
+                    <button id="openNav" onclick="openNav()" class="menu d-md-none" type="button">&#9776</button>
+                    <div id="Menu" class="d-md-none navbar1 d-flex justify-content-center align-items-center">
+                        <button class="menu position-absolute closbtn" onclick="closeNav()"
+                            type="button">&times;</button>
+                        <ul class="mb-0 ps-0 d-flex flex-column gap-3 text-white">
+                            <li ><a class="text-black ff_inter fs_2xl fw-medium " href="">
+                                About Us
+                            </a></li>
+                        <li><a class="text-black ff_inter fs_2xl fw-medium" href="">News</a></li>
+                        <li class="text-black ff_inter fs_2xl fw-medium">Contact Us</li>
+                        <li>
+                            <a class=" ff_inter fs_xl text-white fw-semibold primary_btn padding13_16" href="">Get
+                                Started</a>
+                        </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </nav>
+    </div>
+    </section>
+    <!-- NAVBAR ENDS HERE   -->
+    <!-- HEROSECTION STARTS HERE  -->
+    <section class="bghero min-vh-100">
+        <div class="container_css">
+            <div class=" mt-5 pt-5">
+                <h1 class="pt-5  text-center mx-auto max_w_825 fs_10xl fw-normal ff_jakarta "><span
+                        class="fw-bolder">Next Generation</span> Patient
+                    Engagement and RTM Solution✨</h1>
+                <p class="text-black opacity-75 text-center ff_inter fw-normal d-flex justify-content-center fs_5xl">
+                    Industry
+                    leading AI motion-tracking
+                    technology</p>
+            </div>
+            <div class="d-flex justify-content-center mt-5 pt-2">
+                <div class="d-inline input_box padding5_16 mx-auto">
+                    <input type="email" placeholder="Enter Your Email"
+                        class="outline_none brdr_none ff_inter fs_xl fw-medium">
+                    <button class="ff_inter fs_xl fw-semibold primary_btn padding13_16">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEROSECTION ENDS HERE  -->
+    <!-- THAT OVERFLOW SECTION STARTS HERE  -->
+    <section>
+        <div class="container_css">
+            <div class="d-flex justify-content-center mt_n85">
+                <img class="wh_582 w-100" src="./assets/image/webp/secondsec.webp" alt="#">
+            </div>
+            <p class="clr_seablue ff_inter fw-medium fs_xl text-uppercase d-flex justify-content-center mb-0 mt-5 pb-2">
+                Features</p>
+            <h2 class="fw-normal fs_9xl mx-auto text-center ff_jakarta">Explore Our <span class="fw-semibold">Amazing
+                    Features</span></h2>
+            <p class="ff_inter fs_xl fw-normal text-center max_w_754 mx-auto pt-2 mb-0">Yoomi is more than just a
+                regular remote
+                monitoring
+                solution. Our product supports patients and providers
+                through every step of the rehabilitation process</p>
+        </div>
+    </section>
+    <!-- THAT OVERFLOW SECTION ENDS HERE  -->
+    <!-- SLIDER SECTION STARTS HERE  -->
+    <section class=" py-5 overflow-hidden position-relative">
+        <img class="plus_lg1 d-lg-block d-none" src="./assets/image/svg/plus_lg.svg" alt="">
+        <div class="container_css">
+            <div class="white_box position-relative my-5 row  flex-lg-row padding60_33">
+                <span> <img class="position-absolute z-0 top-0 slider_bg_abs d-lg-block d-none"
+                        src="./assets/image/webp/sliderbg.webp" alt=""></span>
+                <div class="row">
+                    <div class="col-lg-6 col-12"  data-aos="fade-right" data-aos-duration="1000">
+                        <p class="clr_seablue ff_inter fw-medium text-uppercase fs_xl mb-0 pb-2">Library</p>
+                        <h3 class="fs_8xl fw-normal ff_jakarta ">Extensive Exercise <span
+                                class="fw-semibold">Library</span>
+                        </h3>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="./assets/image/svg/fadetick.svg" alt="">
+                            <p>Utilize Yoomi’s HEP templates to quickly create and assign programs to your patients </p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="./assets/image/svg/fadetick.svg" alt="">
+                            <p>Choose from our library of exercises for all patient cases</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="./assets/image/svg/fadetick.svg" alt="">
+                            <p>Use Yoomi’s industry-leading exercise generation tool to create your own exercises that
+                                track adherence and form in seconds </p>
+                        </div>
+                        <button class="primary_btn ff_inter mt-5 fs_xl fw-semibold primary_btn padding16_32">View the
+                            Library</button>
+                    </div>
+                    <div class="col-lg-6 order-first order-lg-last col-12 " data-aos="fade-left" data-aos-duration="1000">
+
+                        <div class="responsive">
+                            <div class="me-3 "><img class="w-100" src="./assets/image/webp/sec3slide1.webp"
+                                    alt="Slide 1"></div>
+                            <div class="me-3 "><img class="w-100" src="./assets/image/webp/sec3slide2.webp"
+                                    alt="Slide 2"></div>
+                            <div class="me-3 "><img class="w-100" src="./assets/image/webp/sec3slide1.webp"
+                                    alt="Slide 3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SLIDER SECTION ENDS HERE  -->
+    <!-- FEEDBACK SECTION STARTS HERE  -->
+    <section class="mb-5 overflow-hidden pb-5 position-relative">
+        <img class="plus_lg2 d-lg-block d-none" src="./assets/image/svg/plus_lg.svg" alt="">
+        <div class="container_css">
+            <div class="white_box row align-items-center  padding58_33 gap-5">
+                <div class="col-lg-6 position-relative" data-aos="fade-right" data-aos-duration="1000">
+                    <div>
+                        <img class="w-100 " src="./assets/image/webp/Cutting_edge.webp" alt="">
+                    </div>
+                    <img class="position-absolute feedback_abs1" src="./assets/image/webp/feedback_abs.webp" alt="">
+                    <img class="position-absolute feedback_abs2" src="./assets/image/webp/feedback_abs2.webp" alt="">
+                </div>
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="pl-lg-4">
+                        <p class="clr_seablue ff_inter fw-medium fs_xl text-uppercase mb-0 pb-2">TRACKING</p>
+                        <h3 class="fs_8xl fw-normal ff_jakarta mb-3">Cutting Edge Motion <span
+                                class="fw-semibold">Tracking/Feedback</span></h3>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="./assets/image/svg/fadetick.svg" alt="">
+                            <p>Provides a holistic, real-time analysis of patient exercise form, capturing 300+ data
+                                points and critical metrics. </p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="./assets/image/svg/fadetick.svg" alt="">
+                            <p>Delivers immediate feedback and guidance to correct and improve exercise form</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="./assets/image/svg/fadetick.svg" alt="">
+                            <p>Supported by the most accurate motion-tracking model designed for rehabilitation,
+                                Yoomi Vision </p>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="./assets/image/svg/fadetick.svg" alt="">
+                            <p>Requires no custom hardware, sensors, or equipment</p>
+                        </div>
+                        <button class="primary_btn ff_inter fs_xl fw-semibold mt-5 primary_btn padding16_32">Test it
+                            Yourself</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEEDBACK SECTION ENDS HERE  -->
+    <!-- Analytics SECTION STARTS HERE  -->
+    <section class="mt-5">
+        <div class="container_css mt-5">
+            <div class="white_box mt-5 row align-items-center padding36_48">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="clr_seablue ff_inter fw-medium fs_xl text-uppercase mb-0 pb-2">report</p>
+                    <h4 class="fs_8xl fw-normal ff_jakarta mb-3">Reporting <span class="fw-semibold">+ Analytics</span>
+                    </h4>
+                    <p class="ff_inter fs_xl fw-normal">Track patient progress over time with compliance, pain, RPE,
+                        ROM and other key metrics</p>
+                    <button class="primary_btn padding16_20 mt-4">View the Matrics</button>
+                </div>
+                <div class="col-lg-6 order-first order-lg-last position-relative" data-aos="fade-left" data-aos-duration="1000">
+                    <img class="position-absolute analytics-abs1" src="./assets/image/webp/analytics-abs.webp" alt="">
+                    <img class="position-absolute analytics-abs2" src="./assets/image/webp/analytics-abs2.webp" alt="">
+                    <img class="wh_550 w-100" src="./assets/image/webp/analytics.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Analytics SECTION ENDS HERE  -->
+    <!-- BILLING SECTION STARTS HERE  -->
+    <section class="my-5 overflow-hidden position-relative py-5">
+        <img class="plus_lg1 z-n1 d-lg-block d-none" src="./assets/image/svg/plus_lg.svg" alt="">
+        <div class="container_css">
+            <div class="white_box row align-items-center padding87_43">
+                <div class="col-lg-6 position-relative" data-aos="fade-right" data-aos-duration="1000">
+                    <img class="position-absolute billing_abs1" src="./assets/image/webp/billing_abs.webp" alt="">
+                    <img class="wh_534 w-100" src="./assets/image/webp/billing.webp" alt="">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <p class="clr_seablue ff_inter fw-medium fs_xl text-uppercase mb-0 pb-2">TRACKING</p>
+                    <h4 class="fs_8xl fw-normal ff_jakarta mb-3">Remote Therapeutic <span class="fw-semibold">Monitoring
+                            + Billing</span></h4>
+                    <p class="ff_inter fs_xl fw-normal">Enhance patient care with remote monitoring, and enable
+                        providers to generate over $160 per patient per month in additional revenue</p>
+                    <button class="primary_btn padding16_20 mt-4">Check Out the Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BILLING SECTION ENDS HERE  -->
+    <!-- PLATFORM SECTION STARTS HERE  -->
+    <section class="mt-5 overflow-hidden pt-5 position-relative bg_gray">
+        <img class="plus_lg3  d-lg-block d-none" src="./assets/image/svg/plus_lg_white.svg" alt="">
+        
+        <div class="">
+            <div class="container_css pt-5">
+                <p class="d-flex justify-content-center fs_xl fw-medium ff_inter text-uppercase clr_seablue mb-0 pb-2">
+                    Platform</p>
+                <h5 class="d-flex justify-content-center fs_9xl ff_jakarta fw-normal mb-3">Through <span
+                        class="fw-semibold">Our
+                        Platform</span></h5>
+                <p class="d-flex justify-content-center text-black opacity-75">We’ve helped out partners and patients
+                    achieve</p>
+                <div class="d-flex justify-content-center gap-4  py-5">
+
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000" class="platform_boxes box_green">
+                        <img class="position-absolute platform_box_plus" src="./assets/image/svg/plus_sign.svg" alt="">
+                        <p class="ff_inter fs_9xxl fw-semibold text-white mb-0">50%</p>
+                        <p class="ff_inter fs_xl fw-normal text-center text-white mb-0">Reduction in Pain</p>
+                    </div>
+
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000"  class="platform_boxes box_blue">
+                        <img class="position-absolute platform_box_plus" src="./assets/image/svg/plus_sign.svg" alt="">
+                        <p class="ff_inter fs_9xxl fw-semibold text-white mb-0">90%</p>
+                        <p class="ff_inter fs_xl fw-normal text-center text-white mb-0">Increase In-Patient Satisfaction
+                        </p>
+                    </div>
+
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000" class="platform_boxes box_deepblue">
+                        <img class="position-absolute platform_box_plus" src="./assets/image/svg/plus_sign.svg" alt="">
+                        <p class="ff_inter fs_9xxl fw-semibold text-white mb-0">60%</p>
+                        <p class="ff_inter fs_xl fw-normal text-center text-white mb-0">Faster Recovery</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PLATFORM SECTION ENDS HERE  -->
+    <!-- CALCULATE SECTION STARTS HERE  -->
+    <section class="bg_gray overflow-hidden position-relative  py-5">
+        <img class="plus_lg4 z-1  d-lg-block d-none" src="./assets/image/svg/plus_lg_white2.svg" alt="">
+        <div class="container_css pt-5 pb-4">
+            <p class="d-flex justify-content-center text-uppercase fs_xl fw-medium ff_inter clr_seablue">Forecast your
+                profits</p>
+            <h6 class="mx-auto fs_9xl ff_jakarta fw-normal max_w_592 text-center">Calculate Your <span
+                    class="fw-semibold"> Reimbursement With Yoomi</span></h6>
+            <div class="row">
+                <div data-aos="flip-left" data-aos-duration="1000"  class="col-lg-4">
+                    <div class="input_range_box d-flex flex-column">
+                        <p class="text-white ff_inter fs_xl fw-semibold d-flex justify-content-center">Total Patients
+                            per month </p>
+                        <span class="d-flex justify-content-center"> <img src="./assets/image/svg/range.svg"
+                                alt=""></span>
+                        <div class="padding9_50 mx-auto bg-white rounded max_w_156 mt-4">
+                            <p class="mb-0 d-flex justify-content-center fs_6xl fw-semibold ff_inter clr_seablue">100
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="flip-left" data-aos-duration="1000"  class="col-lg-4  mt-4 mt-lg-0 ">
+                    <div class="d-flex justify-content-between align-items-center  calculate_box  mx-auto">
+                        <p class="mb-0 ff_inter fs_xl fw-semibold ">Initial Setup</p>
+                        <button class="ff_inter fs_6xl fw-semibold primary_btn padding13_16">$ 40.26</button>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4 calculate_box  mx-auto">
+                        <div class="mb-0 ff_inter fs_xl fw-semibold">
+                            <p class="mb-0">Patient</p>
+                            <p class="mb-0"> Monitoring</p>
+                        </div>
+                        <button class="ff_inter fs_6xl fw-semibold primary_btn padding13_16">$ 40.26</button>
+                    </div>
+                </div>
+                <div data-aos="flip-left" data-aos-duration="1000"   class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="d-flex justify-content-between align-items-center  calculate_box  mx-auto">
+                        <div class="mb-0 ff_inter fs_xl fw-semibold">
+                            <p class="mb-0">First
+                            </p>
+                            <p class="mb-0"> 20 Minutes</p>
+                        </div>
+                        <button class="ff_inter fs_6xl fw-semibold primary_btn padding13_16">$ 40.26</button>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-4 calculate_box  mx-auto">
+                        <div class="mb-0 ff_inter fs_xl fw-semibold">
+                            <p class="mb-0">Additional
+                            </p>
+                            <p class="mb-0"> 20 Minitutes</p>
+                        </div>
+                        <button class="ff_inter fs_6xl fw-semibold primary_btn padding13_16">$ 40.26</button>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000" class="d-flex justify-content-between align-items-center mt-4 calculate_box  mx-auto">
+                <p class="mb-0 ff_inter fs_xl fw-semibold">
+                    Potential Reimbursement
+                </p>
+                <button class="ff_inter fs_6xl fw-semibold primary_btn padding13_16">$12000</button>
+            </div>
+        </div>
+    </section>
+    <!-- CALCULATE SECTION ENDS HERE  -->
+    <!-- PARTNERS SECTION STARTS HERE  -->
+    <section class="overflow-hidden my-lg-5 py-5">
+        <div class="container_css my-5 py-lg-3">
+            <p class="d-flex justify-content-center fs_xl fw-medium ff_inter text-uppercase clr_seablue mb-0 pb-2">
+                Partners</p>
+            <h6 class="text-center fs_9xl ff_jakarta mx-auto fw-normal max_w_684">Recognized by Leading <span
+                    class="fw-semibold">Healthcare Institutions</span></h6>
+            <div class="d- justify-content-center mt-5 d-xl-flex d-none pt-2">
+                <img data-aos="flip-left" data-aos-duration="1000" class="w-25 nav_tabs" src="./assets/image/webp/nih.webp" alt="">
+                <img data-aos="flip-left" data-aos-duration="1000" class="w-25 nav_tabs" src="./assets/image/webp/uni.webp" alt="">
+                <img data-aos="flip-left" data-aos-duration="1000" class="w-25 nav_tabs" src="./assets/image/webp/rwj.webp" alt="">
+                <img data-aos="flip-left" data-aos-duration="1000" class="w-25 nav_tabs" src="./assets/image/webp/jj.webp" alt="">
+                <img data-aos="flip-left" data-aos-duration="1000" class="w-25 nav_tabs" src="./assets/image/webp/foundation.webp" alt="">
+            </div>
+            <div class="slider2 d-xl-none d-block">
+                <div class="">
+                    <img class="w-100" src="./assets/image/webp/nih.webp" alt="">
+                </div>
+                <div class="">
+                    <img class="w-100" src="./assets/image/webp/uni.webp" alt="">
+                </div>
+                <div class="">
+                    <img class="w-100" src="./assets/image/webp/rwj.webp" alt="">
+                </div>
+                <div class="">
+                    <img class="w-100" src="./assets/image/webp/jj.webp" alt="">
+                </div>
+                <div class="">
+                    <img class="w-100" src="./assets/image/webp/foundation.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PARTNERS SECTION ENDS HERE  -->
+    <!-- NAV TABS SECTION STARTS HERE  -->
+    <section>
+        <div class="container_css">
+            <p class="d-flex justify-content-center fs_xl fw-medium ff_inter clr_seablue text-uppercase">Know More</p>
+            <h6 class=" fs_9xl ff_jakarta fw-normal text-center mx-auto mb-5 pb-3  max_w_615 ">And Used by the Biggest
+                <span class="fw-semibold"> Figures in
+                    Sports and Rehab</span></h6>
+
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><img
+                        class="w-100 " src="./assets/image/webp/tab1.webp" alt="">
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><img
+                        class="w-100 " src="./assets/image/webp/tab2.webp" alt=""></div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><img
+                        class="w-100 " src="./assets/image/webp/tab3.webp" alt=""></div>
+                <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab"><img
+                        class="w-100 " src="./assets/image/webp/tab1.webp" alt=""></div>
+            </div>
+            <nav class="mt-4">
+                <div class="nav nav-tabs d-flex" id="nav-tab" role="tablist">
+                    <button data-aos="flip-left" data-aos-duration="1000" class="nav-link w-25 nav_tabs active" id="nav-home-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                        aria-selected="true"><img class="w-100" src="./assets/image/webp/tab1.webp" alt=""></button>
+                    <button data-aos="flip-left" data-aos-duration="1000" class="nav-link w-25 nav_tabs" id="nav-profile-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                        aria-selected="false"><img class="w-100" src="./assets/image/webp/tab2.webp" alt=""></button>
+                    <button data-aos="flip-left" data-aos-duration="1000" class="nav-link w-25 nav_tabs" id="nav-contact-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                        aria-selected="false"><img class="w-100" src="./assets/image/webp/tab3.webp" alt=""></button>
+                    <button data-aos="flip-left" data-aos-duration="1000" class="nav-link w-25 nav_tabs" id="nav-four-tab" data-bs-toggle="tab" data-bs-target="#nav-four"
+                        type="button" role="tab" aria-controls="nav-four" aria-selected="false"><img class="w-100"
+                            src="./assets/image/webp/tab1.webp" alt=""></button>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- NAV TABS SECTION ENDS HERE  -->
+    <!-- SAFETY SECTION STARTS HERE  -->
+    <section class="my-5 py-5 ">
+        <div class="container_css my-4">
+            <div class="row align-items-center justify-content-between">
+                <div  data-aos="fade-right" data-aos-duration="1000" class="col-lg-6">
+                    <p class=" fs_xl fw-medium ff_inter text-uppercase clr_seablue">The Best for you</p>
+                    <h6 class=" fs_9xl ff_jakarta fw-normal ">Committed to
+                        Industry-Standard <span class="fw-semibold">Compliance and Safety</span></h6>
+                    <p class="ff_inter fs_xl fw-normal opacity-75">Yoomi has signed the American Physical Therapy
+                        Association Digital Transparency pledge,
+                        illustrating our commitment to the fact that digital "physical therapy" services are only
+                        performed or directed by licensed physical therapists in accordance with all regulations and
+                        APTA’s Standards of Practice for Physical Therapy.</p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="col-lg-5 order-first order-lg-last">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <div class="safety_boxes p-5 d-inline-block">
+                                <img src="./assets/image/svg/hipaa.svg" alt="">
+                            </div>
+                            <div class="safety_boxes mt-2 padding50 d-inline-block">
+                                <img src="./assets/image/svg/fda.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="safety_boxes padding36 d-inline-block">
+                                <img src="./assets/image/svg/apta.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SAFETY SECTION ENDS HERE  -->
+    <!-- ABOUT SECTION STARTS HERE  -->
+    <section class="mb-5 overflow-hidden position-relative">
+        <img class="plus_lg5 z-n1 d-lg-block d-none" src="./assets/image/svg/plus_lg.svg" alt="">
+        <img class="plus_lg2 z-n1 d-lg-block d-none" src="./assets/image/svg/plus_lg.svg" alt="">
+        <div class="container_css mb-5">
+            <p class="d-flex justify-content-center  fs_xl fw-medium ff_inter text-uppercase clr_seablue">CLIENT review
+            </p>
+            <h6 class=" fs_9xl ff_jakarta fw-normal mx-auto text-center">What are Client Thinks <span
+                    class="fw-semibold ps-2">About Us</span> </h6>
+            <div class="my-5">
+                <div class="slider">
+                    <div class="mx-auto">
+                        <div data-aos="flip-left" data-aos-duration="1000" class="review_boxes my-5">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/image/svg/joy.svg" alt="">
+                            </div>
+                            <h6 class="d-flex justify-content-center ff_inter fs_3xl fw-medium align-items-center">Joy
+                                Robert <span class="fs_lg"> ( USA )</span></h6>
+                            <p class="fs_lg fw-medium d-flex justify-content-center clr_seablue ff_inter">CEO ( yoomi )
+                            </p>
+                            <p class="ff_inter fs_xl fw-normal text-center mx-auto max_w_504">I'm a paragraph. Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit
+                                Text” or double click me to add your own content and make changes to the font.</p>
+                            <span class="d-flex justify-content-center"> <img src="./assets/image/svg/stars.svg"
+                                    alt=""></span>
+
+                        </div>
+                    </div>
+                    <div class="mx-auto">
+                        <div class="review_boxes my-5">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/image/svg/joy.svg" alt="">
+                            </div>
+                            <h6 class="d-flex justify-content-center ff_inter fs_3xl fw-medium align-items-center">Joy
+                                Robert <span class="fs_lg"> ( USA )</span></h6>
+                            <p class="fs_lg fw-medium d-flex justify-content-center clr_seablue ff_inter">CEO ( yoomi )
+                            </p>
+                            <p class="ff_inter fs_xl fw-normal text-center mx-auto max_w_504">I'm a paragraph. Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit
+                                Text” or double click me to add your own content and make changes to the font.</p>
+                            <span class="d-flex justify-content-center"> <img src="./assets/image/svg/stars.svg"
+                                    alt=""></span>
+
+                        </div>
+                    </div>
+                    <div class="mx-auto">
+                        <div class="review_boxes my-5">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/image/svg/joy.svg" alt="">
+                            </div>
+                            <h6 class="d-flex justify-content-center ff_inter fs_3xl fw-medium align-items-center">Joy
+                                Robert <span class="fs_lg"> ( USA )</span></h6>
+                            <p class="fs_lg fw-medium d-flex justify-content-center clr_seablue ff_inter">CEO ( yoomi )
+                            </p>
+                            <p class="ff_inter fs_xl fw-normal text-center mx-auto max_w_504">I'm a paragraph. Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit
+                                Text” or double click me to add your own content and make changes to the font.</p>
+                            <span class="d-flex justify-content-center"> <img src="./assets/image/svg/stars.svg"
+                                    alt=""></span>
+
+                        </div>
+                    </div>
+                    <div class="mx-auto">
+                        <div class="review_boxes my-5">
+                            <div class="d-flex justify-content-center">
+                                <img src="./assets/image/svg/joy.svg" alt="">
+                            </div>
+                            <h6 class="d-flex justify-content-center ff_inter fs_3xl fw-medium align-items-center">Joy
+                                Robert <span class="fs_lg"> ( USA )</span></h6>
+                            <p class="fs_lg fw-medium d-flex justify-content-center clr_seablue ff_inter">CEO ( yoomi )
+                            </p>
+                            <p class="ff_inter fs_xl fw-normal text-center mx-auto max_w_504">I'm a paragraph. Click
+                                here to add your own text and edit me. It’s easy. Just click “Edit
+                                Text” or double click me to add your own content and make changes to the font.</p>
+                            <span class="d-flex justify-content-center"> <img src="./assets/image/svg/stars.svg"
+                                    alt=""></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/image/svg/leftright.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION ENDS HERE  -->
+    <!-- INPUT SECTION STARTS HERE  -->
+    <section class="bg_overflowsec mt-5 pt-5">
+        <div data-aos="flip-uo" data-aos-duration="1000" class="container_css position-relative overflow-hidden contact_box  mt-5 pt-5">
+            <img class="plus_lg2 z-1 d-lg-block d-none" src="./assets/image/svg/plus_lg.svg" alt="">
+            <div class="row align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-md-6">
+                    <img src="./assets/image/svg/logoinput_sec.svg" alt="">
+                    <p class="fs_7xl fw-normal ff_jakarta text-white pt-4 mb-5">Sign Up to Join Our Newsletter</p>
+                 <div class="d-none d-md-block">
+                    <div class="d-inline input_box padding16_18 mx-auto ">
+                        <input type="email" placeholder="Enter Your Email"
+                            class="outline_none brdr_none ff_inter fs_xl fw-medium">
+                        <button class="ff_inter fs_xl fw-semibold primary_btn padding13_16">Get Started</button>
+                    </div>
+                 </div>
+                   <div class="d-md-none d-block">
+                    <div class="d-inline input_box padding16_18 mx-auto ">
+                        <input type="email" placeholder="Enter Your Email"
+                            class="outline_none brdr_none ff_inter fs_xl fw-medium">
+                        <button class="ff_inter mt-4 fs_xl fw-semibold primary_btn padding13_16">Get Started</button>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-4 mx-auto mt-3 mt-md-3">
+                    <img src="./assets/image/svg/newsletter.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- INPUT SECTION ENDS HERE  -->
+    <!-- FOOTER STARTS HERE  -->
+    <footer class="bg-black pt-5">
+        <div class="container_css pt-5">
+            <div class="row justify-content-between align-items-center pt-2">
+                <div class="col-lg-3">
+                    <img src="./assets/image/svg/logoinput_sec.svg" alt="">
+                    <p class="ff_inter fw-light fs_lg text-white pt-4">I'm a paragraph. Click here to add your own text
+                        and
+                        edit me. It’s easy. Just click “Edit Text”
+                    </p>
+                    <div class="d-flex align-items-center gap-2 pt-3">
+                        <img src="./assets/image/svg/message.svg" alt="">
+                        <p class="ff_inter fw-light fs_xl text-white mb-0">contact@yoomi.com</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 pt-3">
+                        <img src="./assets/image/svg/call.svg" alt="">
+                        <p class="ff_inter fw-light fs_xl text-white mb-0">+123 456 789</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 mt-lg-0">
+                    <div class="d-flex">
+                        <ul>
+                            <li class="pb-3 ff_inter fs_lg fw-semibold text-white">About Us</li>
+                            <li class="pb-3 ff_inter fw-normal fs_lg text-white">Meet the Team</li>
+                            <li class="pb-3 ff_inter fw-normal fs_lg text-white">Our Mission</li>
+                            <li class="ff_inter fw-normal fs_lg text-white">Our Vision</li>
+                        </ul>
+                        <ul>
+                            <li class="pb-3 ff_inter fs_lg fw-semibold text-white">Contact Us</li>
+                            <li class="pb-3 ff_inter fw-normal fs_lg text-white">Twitter</li>
+                            <li class="pb-3 ff_inter fw-normal fs_lg text-white">Instagram</li>
+                            <li class="ff_inter fw-normal fs_lg text-white">Linkedin</li>
+                        </ul>
+                        <ul>
+                            <li class="pb-3 ff_inter fs_lg fw-semibold text-white">News</li>
+                            <li class="ff_inter fw-normal fs_lg text-white">Recent </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex gap-4 pt-5 mt-5 justify-content-end">
+                <p class="ff_inter fw-normal fs_lg text-white-50">Terms of Service</p>
+                <p class="ff_inter fw-normal fs_lg text-white-50">Privacy Policy</p>
+                <p class="ff_inter fw-normal fs_lg text-white-50">Cookies</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center footerline"></div>
+        
+    </footer>
+    <!-- FOOTER ENDS HERE  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("Menu").style.left = "0%";
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+
+        }
+        function closeNav() {
+            document.getElementById("Menu").style.left = "-100%";
+            document.getElementsByTagName("body")[0].style.overflow = "scroll";
+        }
+    </script>
+    <script>
+
+        $('.responsive').slick({
+            dots: false,
+            infinite: true,
+            arrow: true,
+            speed: 300,
+            slidesToShow: 1.05,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 1.1,
+                        arrows: false,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+
+                    }
+                },
+            ]
+        });
+    </script>
+    <script>
+
+        $('.slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 900,
+            autoplaySpeed: 700,
+            arrows: false,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                      
+                    }
+                },
+            ]
+        });
+    </script>
+      <script>
+        const preloader = document.getElementById("preloader")
+  
+        setTimeout(() => {
+          preloader.classList.add("d-none")
+          document.body.classList.remove("overflow-hidden")
+        }, 3000)
+      </script>
+      <script>
+  
+        let mybutton = document.getElementById("scrollBtn");
+  
+  
+        window.onscroll = function () { scrollFunction() };
+  
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    <script>
+
+        $('.slider2').slick({
+            dots: false,
+            infinite: true,
+            speed: 900,
+            autoplaySpeed: 700,
+            arrows: false,
+            autoplay: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+
+                    }
+                },
+            ]
+        });
+    </script>
+</body>
+
+</html>
